@@ -1,0 +1,55 @@
+#map {
+  width: 100%;
+  height: calc(100vh - 56px);
+}
+
+.map-coordinate {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  color: #fff;
+  transform: translateX(-50%);
+  padding: 8px;
+  background-color: #787774;
+  border: 1px solid black;
+  border-radius: 5px;
+  opacity: 70%;
+}
+
+.full-screen {
+  position: absolute;
+  right: 10px;
+  top: 220px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  border-color: black;
+  border: 2px;
+}
+
+.zoom-to-layer {
+  position: absolute;
+  right: 10px;
+  top: 270px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  border-color: black;
+  border: 2px;
+}
+
+.navbar-brand {
+  padding-left: 15px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+#elevation-div {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
